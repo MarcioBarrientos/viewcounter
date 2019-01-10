@@ -1,6 +1,6 @@
 {
 	"name": "chillu/viewcounter",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"description": "Tracks SilverStripe page views/visitors/hits in a simple counter record",
 	"homepage": "http://silverstripe.org",
 	"license": "BSD-3-Clause",
