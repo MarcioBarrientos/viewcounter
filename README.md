@@ -19,7 +19,7 @@ Add the following to your YAML config (e.g. `mysite/_config/config.yml`):
 
 	MyRecordClass:
 		extensions:
-			- ViewCountableExtension
+			- 'Chillu\ViewCount\Extensions\ViewCountableExtension'
 
 Views stored in a `ViewCount` record which relates to your record class.
 If applying the extension to a `SiteTree` subclass, views are automatically tracked.

@@ -1,4 +1,8 @@
 <?php
+
+use SilverStripe\Dev\FunctionalTest;
+use SilverStripe\Versioned\Versioned;
+
 class ViewCountableExtensionTest extends FunctionalTest
 {
 
@@ -8,7 +12,7 @@ class ViewCountableExtensionTest extends FunctionalTest
 
     protected $requiredExtensions = array(
         'Page' => array(
-            'ViewCountableExtension'
+            'Chillu\ViewCount\Extensions\ViewCountableExtension'
         ),
     );
 

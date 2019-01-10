@@ -1,4 +1,4 @@
-ViewCountableExtension:
+Chillu\ViewCount\Extensions\ViewCountableExtension:
   bots:
     - Googlebot
     - Baiduspider
